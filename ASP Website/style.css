@@ -1,0 +1,109 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+header {
+    background-color: #b30000; /* Dark Red */
+    color: gold; /* Golden text */
+    padding: 10px 20px;
+    text-align: center;
+}
+
+nav a {
+    margin: 0 15px;
+    color: gold; /* Golden links */
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+/* Home Section */
+#home {
+    background-color: rgba(255, 223, 186, 0.9); /* Light bubble color */
+    padding: 15px;
+    border-radius: 15px; /* Rounded corners for home */
+    margin-bottom: 20px;
+}
+
+/* Community Feed Section */
+#feed {
+    background-color: rgba(255, 223, 186, 0.9); /* Light bubble color */
+    padding: 15px;
+    border-radius: 15px; /* Rounded corners for feed */
+    margin-bottom: 20px;
+}
+
+/* Individual Post Styles */
+.post {
+    background-color: #e74c3c; /* Light Red for the post bubble */
+    color: white; /* White text color */
+    border-radius: 20px; /* Rounded bubble shape */
+    padding: 15px;
+    margin: 10px 0; /* Space between posts */
+    position: relative;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    animation: bubbleAnimation 0.5s ease-in-out; /* Add animation */
+}
+
+/* Keyframes for Bubble Animation */
+@keyframes bubbleAnimation {
+    0% {
+        transform: translateY(10px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+/* Virtual Pandal Section */
+#pandal {
+    background-color: rgba(255, 223, 186, 0.9); /* Light bubble color */
+    padding: 15px;
+    border-radius: 15px; /* Rounded corners for pandal */
+    margin-bottom: 20px;
+}
+
+/* Login Section */
+#login {
+    background-color: rgba(255, 223, 186, 0.9); /* Light bubble color */
+    padding: 15px;
+    border-radius: 15px; /* Rounded corners for login */
+}
+
+textarea {
+    width: 100%;
+    height: 60px;
+    margin-top: 10px;
+    border-radius: 15px;
+}
+
+button {
+    background-color: #b30000; /* Dark Red */
+    color: gold; /* Golden text */
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #c71515; /* Lighter Red on hover */
+}
+img{
+    width: 50%;
+    height: auto;
+    border-radius: 15px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #b30000; /* Dark Red */
+    color: gold; /* Golden text */
+}
